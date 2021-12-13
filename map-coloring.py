@@ -50,9 +50,6 @@ class ColorMap:
             out = self.order[i] + " ".join(self.adjacency[i])
 
 
-# In[67]:
-
-
 def SUV(): # SELECT-UNASSIGNED-VARIABLE
     ...
     
@@ -69,9 +66,6 @@ def degree():  # degree heuristic
     """ takes in a map and constraints and returns a list of regions according to Degree Heuristic """
     regions = []
     return regions
-
-
-# In[71]:
 
 
 if __name__ == '__main__':
